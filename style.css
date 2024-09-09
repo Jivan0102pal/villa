@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(villa_agency/templatemo_591_villa_agency/images/banner-01.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.header .navbar{
+    display:flex;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color:rgba(0,0,0,0.5);
+}
+
+.header .navbar .logo{
+    color: lightgoldenrodyellow;
+    font-family: 'Lucida Sans';
+    position: relative;
+    right: 10px;
+    font-size: 19px;
+    align-items:center;
+    text-shadow:2px 2px 2px red ;
+    margin-top: 5px;
+}
+
+.header .navbar .menu ul li{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-inline: 10px;
+    position: relative;
+    left: 190px;
+}
+
+.header .navbar .schedulebar .serch{
+    border: none;
+    border-radius: 80px;
+    margin: 10px;
+    padding: 5px;
+    padding-left: 25px;
+    position: relative;
+    left: 150px;
+}
+
+.header .navbar .bt .btn{
+    border: none;
+    background-color: orangered;
+    color: aliceblue;
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+    position: relative;
+    right: 190px;
+    top: 10px;
+}
+
+.header .toronto{
+    border: none;
+    height: 30px;
+    width: 150px;
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Gill Sans';
+}
+  
+ 
